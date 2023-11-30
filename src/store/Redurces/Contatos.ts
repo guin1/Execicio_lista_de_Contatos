@@ -10,7 +10,14 @@ export type ContatosState = {
 }
 
 const initialState: ContatosState = {
-  contatos: []
+  contatos: [
+    {
+      id: 0,
+      nome: '',
+      email: '',
+      telefone: ''
+    }
+  ]
 }
 
 export type ContatosAction =
